@@ -1,0 +1,94 @@
+{
+  "time": 1684976576252,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "BulletRemoveTags",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Bullet_Remove_Tags",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.31,
+          "records": [
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/span[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CancelRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.css-3wm4u9-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

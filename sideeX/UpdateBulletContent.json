@@ -1,0 +1,613 @@
+{
+  "time": 1684976626242,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "UpdateBulletContent",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Update_Bullet_Content",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.06,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-view > p"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 156
+              },
+              "comment": false
+            },
+            {
+              "name": "mouseDownAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-element.fr-view.fr-element-scroll-visible"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "changeCaretPosition",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-element.fr-view.fr-element-scroll-visible > p"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"N\":0,\"O\":0}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "mouseUpAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-element.fr-view.fr-element-scroll-visible"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-element.fr-view.fr-element-scroll-visible"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-element.fr-view.fr-element-scroll-visible"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "test"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "editContent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[3]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.fr-element.fr-view.fr-element-scroll-visible"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "<p>test</p>"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[5]/div[1]/p[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiFormLabel-root.MuiFormLabel-colorPrimary.css-14ezv6n-MuiFormLabel-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 17
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[5]/div[1]/button[2]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-8jod3b-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[5]/div[1]/p[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiFormLabel-root.MuiFormLabel-colorPrimary.css-14ezv6n-MuiFormLabel-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 15
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[2]/div[5]/div[1]/div[1]/label[2]/span[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[2]/span[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root:nth-child(2) > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-19y2nkx-MuiTypography-root:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 65
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[5]/div[1]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root > path"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[3]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[35]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorDefault.MuiEgButton-colorDefault-441.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 68
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[3]/div[3]/div[2]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[2]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[36]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-449.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[6]/div[1]/div[1]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[6]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//button[1]/*[name()='svg'][1]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 60
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

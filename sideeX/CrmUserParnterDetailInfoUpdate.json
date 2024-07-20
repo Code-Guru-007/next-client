@@ -1,0 +1,3516 @@
+{
+  "time": 1685877698829,
+  "version": {
+    "sideex": [4, 0, 0],
+    "format": [2, 0, 2]
+  },
+  "suites": [
+    {
+      "title": "CrmUserParnterDetailInfoUpdate",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "CrmUserPartnerDetail_StaticField_Update",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.07,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[2]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "15,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 16
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerNameZh"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerNameZh']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerNameZh\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Partner Ch Name"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerNameZh"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerNameZh']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerNameZh\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${KEY_ENTER}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CheckCircleRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "7,12"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[3]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(3) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "22,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerNameEn"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerNameEn']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerNameEn\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "P EN Name"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root > path"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,8"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[4]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(4) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "46,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerCountry"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerCountry']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerCountry\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "119,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerCountry"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerCountry']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerCountry\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Nationality_asdf"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CheckCircleRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "9,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[5]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[5]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(5) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "48,8"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 20
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "doubleClickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerCity"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[5]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerCity']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerCity\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "67,28"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerCity"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[5]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerCity']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerCity\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "what?"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CheckCircleRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "8,12"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[6]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[6]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(6) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "75,14"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerArea"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerArea']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerArea\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "50,23"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerArea"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerArea']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerArea\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "something"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CheckCircleRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "18,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[7]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[7]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(7) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "12,6"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 22
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseDownAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerZIPCode"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerZIPCode']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerZIPCode\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "47,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseMoveAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerZIPCode"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerZIPCode']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerZIPCode\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"Movements\":[{\"TD\":96,\"OX\":0,\"OY\":1},{\"TD\":8,\"OX\":-4,\"OY\":1},{\"TD\":8,\"OX\":-6,\"OY\":0},{\"TD\":16,\"OX\":-14,\"OY\":0},{\"TD\":16,\"OX\":-22,\"OY\":0}]}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[7]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[7]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(7) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "30,18"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerZIPCode"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerZIPCode']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerZIPCode\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "777"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root > path"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "11,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[8]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(8) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "37,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerAddress"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerAddress']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerAddress\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "address1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CheckCircleRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "13,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 1000,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[9]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[9]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(9) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "55,8"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerWebsite"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerWebsite']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerWebsite\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "my.website.com1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CheckCircleRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "12,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 1000,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[10]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[10]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(10) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "20,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerInvoiceTaxIdNumber"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[10]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerInvoiceTaxIdNumber']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerInvoiceTaxIdNumber\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "zipcode"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root > path"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "16,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 1000,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[11]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[11]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(11) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "48,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerTelephone"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerTelephone']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerTelephone\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0890000001"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root > path"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "11,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 1000,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[12]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[12]/div[1]/span[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(12) > div.makeStyles-textField-57.MuiBox-root.css-70qvj9 > span.MuiEgTextField-typography:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-ys0atw-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "43,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationPartnerFax"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[12]/div[1]/div[1]/div[1]/form[1]/span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationPartnerFax']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationPartnerFax\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Fax 1231231"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-11ywf6e-MuiSvgIcon-root > path"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "CrmUserPartnerDetail_DynamicField_Update",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.07,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[2]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[13]/div[1]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[13]/div[1]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[10]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-colorDefault.MuiEgButton-colorDefault-95.css-70wge4-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "30,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 94
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=f76853e247cf45f0b702d4c7fda729e0"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='f76853e247cf45f0b702d4c7fda729e0']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"f76853e247cf45f0b702d4c7fda729e0\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "28,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-216.MuiEgButton-contained.makeStyles-dialogConfirmBtn-103.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 1000,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[2]/div[13]/div[1]/div[1]/button[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-body1.MuiEgTypography-boldFontWeight.MuiEgTypography-colorDefault.css-1kwpqs3-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "13,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 75
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=f76853e247cf45f0b702d4c7fda729e0"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='f76853e247cf45f0b702d4c7fda729e0']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"f76853e247cf45f0b702d4c7fda729e0\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "25,27"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=5931e15da664482cbdcd18501b7c3334"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/label[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='5931e15da664482cbdcd18501b7c3334']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"5931e15da664482cbdcd18501b7c3334\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "18,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-247.MuiEgButton-contained.makeStyles-dialogConfirmBtn-103.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

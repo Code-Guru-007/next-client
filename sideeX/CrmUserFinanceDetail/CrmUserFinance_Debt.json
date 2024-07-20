@@ -1,0 +1,2216 @@
+{
+  "time": 1686127962545,
+  "version": {
+    "sideex": [4, 0, 0],
+    "format": [2, 0, 2]
+  },
+  "suites": [
+    {
+      "title": "CrmUserFinance_Debt",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "CrmUserFinance_Debt_Insert",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.07,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[4]/div[1]/div[1]/div[1]/button[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/button[4]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[16]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.css-1reaz9-MuiButtonBase-root-MuiTab-root:nth-child(4)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "26,28"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"AddRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiEgIconButton-colorText.ForwardRef-root-75.ForwardRef-root-1335.css-78trlr-MuiButtonBase-root-MuiIconButton-root > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "14,16"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 247,
+                "prw": 0,
+                "pdw": 485
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-multiline.css-1xnbqax-MuiInputBase-root-MuiOutlinedInput-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "420,12"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-76"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=organizationFinanceColumnList.0.organizationFinanceColumnName"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//textarea[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//textarea[@id='mui-76']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-76"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "test2"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@value='2023-06-07']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiBox-root.css-79elbk > div > div.MuiInputBase-root.MuiInputBase-colorPrimary.css-1075i6c-MuiInputBase-root > input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "66,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 80
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@value='2023-06-07']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiBox-root.css-79elbk > div > div.MuiInputBase-root.MuiInputBase-colorPrimary.css-1075i6c-MuiInputBase-root > input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "66,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[2]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[37]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-container.makeStyles-weekContainer-1580.css-1lym95h-MuiGrid-root:nth-child(2) > div.makeStyles-buttonContainer-1584:nth-child(2) > button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeLarge.makeStyles-button-1585.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "11,23"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-77"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=organizationFinanceColumnList.0.organizationFinanceTarget.organizationFinanceTargetAmount"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-77']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-77"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-79"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-79']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-79"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "152,39"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='mui-79-option-1']/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-79-option-1 > div.MuiBox-root.css-1ouerg2:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "127,6"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 45
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[4]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-1idn90j-MuiGrid-root:nth-child(7) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body2.MuiTypography-alignLeft.MuiEgTypography-body2.MuiEgTypography-colorDefault.css-5zo03y-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "115,20"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//form[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.css-rl4s11-MuiGrid-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3,290"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1550.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "42,18"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "CrmUserFinance_Debt_Update",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.07,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[4]/div[1]/div[1]/div[1]/button[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/button[4]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[16]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.css-1reaz9-MuiButtonBase-root-MuiTab-root:nth-child(4)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "26,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[5]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//td[4]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.makeStyles-vAlign-3351.makeStyles-vAlign-3358.css-9j0u9t-MuiTableCell-root > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-body1.MuiEgTypography-colorDefault.css-1kwpqs3-MuiTypography-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "129,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 210,
+                "prw": 0,
+                "pdw": 632
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseDownAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-182"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=organizationFinanceColumnList.0.organizationFinanceColumnName"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//textarea[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//textarea[@id='mui-182']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-182"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "30,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-182"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=organizationFinanceColumnList.0.organizationFinanceColumnName"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//textarea[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//textarea[@id='mui-182']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-182"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "57,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-182"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=organizationFinanceColumnList.0.organizationFinanceColumnName"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//textarea[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//textarea[@id='mui-182']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-182"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "test_update"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@value='2023-06-05']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiBox-root.css-79elbk > div > div.MuiInputBase-root.MuiInputBase-colorPrimary.css-1075i6c-MuiInputBase-root > input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "61,-1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 66
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[4]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[40]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-container.makeStyles-weekContainer-3494.css-1lym95h-MuiGrid-root:nth-child(2) > div.makeStyles-buttonContainer-3498:nth-child(4) > button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeLarge.makeStyles-button-3499.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "9,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-183"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=organizationFinanceColumnList.0.organizationFinanceTarget.organizationFinanceTargetAmount"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-183']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-183"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-185"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='FinanceForm']/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-185']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-185"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "224,36"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-185-option-2"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='mui-185-listbox']/li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//li[@id='mui-185-option-2']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-185-option-2"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "55,18"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 19
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.makeStyles-root-3447"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "10,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[3]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-3456.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "39,18"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "CrmUserFinance_Debt_Delete(batch)",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.07,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[4]/div[1]/div[1]/div[1]/button[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/button[4]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[16]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiTabs-root.MuiEgTabs-root.css-1xnj75s-MuiTabs-root > div.MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller > div.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer > button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1reaz9-MuiButtonBase-root-MuiTab-root:nth-child(4)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "28,24"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[4]/div[5]/div[1]/div[2]/div[2]/div[1]/div[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@type='checkbox']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input.PrivateSwitchBase-input.css-1m9pwf3"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "16,19"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 190
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"DeleteIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiEgIconButton-colorText.ForwardRef-root-86.ForwardRef-root-218.css-78trlr-MuiButtonBase-root-MuiIconButton-root > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "19,19"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 292
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[25]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-text.MuiButton-textError.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.Button-root-219.Button-root-221.css-1wzlzos-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "28,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "150"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

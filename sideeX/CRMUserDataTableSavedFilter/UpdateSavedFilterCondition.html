@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charSet="UTF-8" />
+    <meta name="application-name" content="sideex" />
+    <meta name="version" content="format=2.0.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UpdateSavedFilterCondition</title>
+    <style>
+      .tac {
+        display: none;
+      }
+
+      table {
+        table-layout: fixed;
+        border-collapse: collapse;
+        width: 90%;
+        word-wrap: break-word;
+      }
+
+      th,
+      td {
+        padding: 5px;
+        border: 1px solid black;
+      }
+
+      .suite-div {
+        text-align: center;
+      }
+
+      .suite-title {
+        text-align: center;
+      }
+
+      .case {
+        margin: auto;
+      }
+
+      .comment {
+        color: #d3d3d3;
+      }
+
+      pre {
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div data-enable-on-playing="true" class="suite">
+      <div class="suite-div ">
+        <h2 class="suite-title">UpdateSavedFilterCondition</h2><pre class="suite-description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+      </div>
+      <table class="case margin-auto" data-ns="3.76" data-enable-on-playing="true">
+        <thead>
+          <tr>
+            <th class="case-div" rowspan="1" colSpan="4">
+              <h3 class="case-title"> Update_Saved_Filter_Condition</h3><pre class="case-description" style="font-family:initial;font-size:16px;font-weight:initial;white-space:pre-wrap"></pre>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="command" data-pbw="0" data-paw="296" data-prw="0" data-pdw="0" data-comment="false">
+            <td class="command-name">clickAt</td>
+            <td class="command-target"><datalist data-used-index="0">
+                <option class="type-tac"><pre>(自訂篩選)</pre>
+                </option>
+                <option class="type-xpath:idRelative"><pre>//div[@id=&#x27;__next&#x27;]/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/button[2]</pre>
+                </option>
+                <option class="type-xpath:position"><pre>//div[4]/button[2]</pre>
+                </option>
+                <option class="type-xpath:attributes"><pre>xpath=(//button[@type=&#x27;button&#x27;])[15]</pre>
+                </option>
+                <option class="type-css:position"><pre>css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorCustome.MuiEgButton-colorCustome-657.MuiEgButton-contained.ForwardRef-root-118.ForwardRef-root-651.css-1bclkqt-MuiButtonBase-root-MuiButton-root</pre>
+                </option>
+              </datalist><span class="target-tac tac">TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQB9UVgRUwwgLocu3AvM49lCngCYVi9QFsIaLEp1rT3bRpNX1qi+YAs8gEYBXMGGz2KIDGGaAV4GAQFGAl96AHgk+GBB4oJAA5gByEHoIzG4e2D5QADYQKCjMeq5o6Z5YMEgYfgAERSXuZTBQ2JBGCOy1xaXYTS2Gkuw0SGgGSACenfUZ5egAXggpnK56k93lzVitA3ML7WjLqw3YznkIFVVgkwhxa+c1dde3la5Y7O1XN0frGNkYSFCuFCeFIfW7NX7-QHAs4ANgArAB2UFfXqbfrvABmfwA7hAkOwkAgMXcwDACAQABzVLFIXH4wnEyp+GDwgjVKD5MnOHIAawAjqS6msTigzkzBV0UeKfJBnEY3lRmAAGGVjGipfBrGVSMDgv7MADEMIcxuNPiBY2yGpANAw6DAmCwuGqhNyDsQAG4fL8oPRHQB5fHIZiaEAAX0oGCgdBi4AgiWS1tUWVy+UKxWu7Ho2ecVoYCAgbyQMAxaGyYGQcDQCGxycoFqtzFt9sdztdfs93qjfuwgaLzAc4cj0aQsfiSRSaS+KbyBXwQqlF0O01RW3eC5XGzXg2GowmG8aO0W+xWB56W-R7CPewOZ6wIrFS4enxX4uRr4wLzeHWfYJ+fwBIEMBBX8UT1SEgJSMlNDhd9GgvNoOhpOkCSJEkyUpakcTxVDGQuDCAE52U5AhuWyfkJSmMoH3Qu8SRlCA5VeKRlVVdUp2mbVpHAw1TRNQd6zAS1rWbNAHWwNsEDdLgEC9SgfR7LA+2DfAyAjXwoBwXBYnjCdrS1SgclndMqJ6N86IQgZl3gvpEKGEY8X3SUV2vJZT2cmy0UQ1yT2s45ThJSYYE4FBGKtH8MxfRpzMip5P2YiLqyi89-wg6E4JSiFAOhMkHFg0DN1sqzkJwhl0IIABmKkSvpNDxTJCqiI5FAYFyTRsSwTQYDvGj6ro6VKFleUWPwMk2P06dBp1Hj8CNfizUoEKwvaZgu19cSlKDUd8AqocNKgPBuB0hNJ3wFA6BwQzUznEADB5BAGwe+AIGyVwHou6CCLWxTlO2wgh2OvTmHOiBLpAIy03nYpPFcKAGGGGgaCtQLmpgCkACsEApWYGG66HPzhhGkcfPxvo236Q3DWRh38fBrmeOg0CgQl6HeQAmRUADW1wkAXItADe5cMgA</span><pre class="show-text" style="font-family:initial;font-size:16px;white-space:pre-wrap">(自訂篩選)</pre>
+            </td>
+            <td class="command-value"><datalist data-used-index="0">
+                <option class="type-other"><pre></pre>
+                </option>
+              </datalist><span class="value-tac tac"></span><pre class="show-text " style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+            <td class="command-description "><pre class="show-text description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+          </tr>
+          <tr class="command" data-pbw="0" data-paw="0" data-prw="0" data-pdw="410" data-comment="false">
+            <td class="command-name">clickAt</td>
+            <td class="command-target"><datalist data-used-index="0">
+                <option class="type-xpath:idRelative"><pre>//div[@id=&#x27;__next&#x27;]/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/button[1]</pre>
+                </option>
+                <option class="type-xpath:position"><pre>//div[2]/div[1]/button[1]</pre>
+                </option>
+                <option class="type-xpath:attributes"><pre>xpath=(//button[@type=&#x27;button&#x27;])[11]</pre>
+                </option>
+                <option class="type-css:position"><pre>css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-disableElevation.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-89.MuiEgButton-contained.ForwardRef-root-86.ForwardRef-root-87.MuiEgDataTableHeader-filterDropDown.css-byh8sq-MuiButtonBase-root-MuiButton-root</pre>
+                </option>
+              </datalist><span class="target-tac tac"></span><pre class="show-text" style="font-family:initial;font-size:16px;white-space:pre-wrap">//div[@id=&#x27;__next&#x27;]/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/button[1]</pre>
+            </td>
+            <td class="command-value"><datalist data-used-index="0">
+                <option class="type-other"><pre></pre>
+                </option>
+              </datalist><span class="value-tac tac"></span><pre class="show-text " style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+            <td class="command-description "><pre class="show-text description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+          </tr>
+          <tr class="command" data-pbw="0" data-paw="0" data-prw="0" data-pdw="1000" data-comment="false">
+            <td class="command-name">clickAt</td>
+            <td class="command-target"><datalist data-used-index="0">
+                <option class="type-xpath:idRelative"><pre>//div[@id=&#x27;filterOptionsScroll&#x27;]/div[1]/div[2]/label[2]</pre>
+                </option>
+                <option class="type-xpath:position"><pre>//label[2]</pre>
+                </option>
+                <option class="type-css:position"><pre>css=label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.EgCheckboxWithLabel-root-1023.makeStyles-checkbox-83.css-j204z7-MuiFormControlLabel-root:nth-child(2)</pre>
+                </option>
+              </datalist><span class="target-tac tac"></span><pre class="show-text" style="font-family:initial;font-size:16px;white-space:pre-wrap">//div[@id=&#x27;filterOptionsScroll&#x27;]/div[1]/div[2]/label[2]</pre>
+            </td>
+            <td class="command-value"><datalist data-used-index="0">
+                <option class="type-other"><pre></pre>
+                </option>
+              </datalist><span class="value-tac tac"></span><pre class="show-text " style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+            <td class="command-description "><pre class="show-text description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+          </tr>
+          <tr class="command" data-pbw="0" data-paw="279" data-prw="0" data-pdw="0" data-comment="false">
+            <td class="command-name">clickAt</td>
+            <td class="command-target"><datalist data-used-index="0">
+                <option class="type-xpath:position"><pre>//div[3]/button[3]</pre>
+                </option>
+                <option class="type-xpath:attributes"><pre>//button[@type=&#x27;submit&#x27;]</pre>
+                </option>
+                <option class="type-css:position"><pre>css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1059.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root</pre>
+                </option>
+              </datalist><span class="target-tac tac"></span><pre class="show-text" style="font-family:initial;font-size:16px;white-space:pre-wrap">//div[3]/button[3]</pre>
+            </td>
+            <td class="command-value"><datalist data-used-index="0">
+                <option class="type-other"><pre></pre>
+                </option>
+              </datalist><span class="value-tac tac"></span><pre class="show-text " style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+            <td class="command-description "><pre class="show-text description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+          </tr>
+          <tr class="command" data-pbw="0" data-paw="0" data-prw="0" data-pdw="44" data-comment="false">
+            <td class="command-name">clickAt</td>
+            <td class="command-target"><datalist data-used-index="0">
+                <option class="type-xpath:position"><pre>//span[2]/span[1]/*[name()=&#x27;svg&#x27;][1]</pre>
+                </option>
+                <option class="type-css:position"><pre>css=span.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiEgIconButton-colorInherit.css-1uwdpcj-MuiButtonBase-root-MuiIconButton-root &gt; svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.css-ptiqhd-MuiSvgIcon-root</pre>
+                </option>
+              </datalist><span class="target-tac tac"></span><pre class="show-text" style="font-family:initial;font-size:16px;white-space:pre-wrap">//span[2]/span[1]/*[name()=&#x27;svg&#x27;][1]</pre>
+            </td>
+            <td class="command-value"><datalist data-used-index="0">
+                <option class="type-other"><pre></pre>
+                </option>
+              </datalist><span class="value-tac tac"></span><pre class="show-text " style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+            <td class="command-description "><pre class="show-text description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+          </tr>
+          <tr class="command" data-pbw="0" data-paw="0" data-prw="0" data-pdw="0" data-comment="false">
+            <td class="command-name">clickAt</td>
+            <td class="command-target"><datalist data-used-index="0">
+                <option class="type-xpath:position"><pre>//div[3]/ul[1]/li[3]</pre>
+                </option>
+              </datalist><span class="target-tac tac"></span><pre class="show-text" style="font-family:initial;font-size:16px;white-space:pre-wrap">//div[3]/ul[1]/li[3]</pre>
+            </td>
+            <td class="command-value"><datalist data-used-index="0">
+                <option class="type-other"><pre></pre>
+                </option>
+              </datalist><span class="value-tac tac"></span><pre class="show-text " style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+            <td class="command-description "><pre class="show-text description" style="font-family:initial;font-size:16px;white-space:pre-wrap"></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,320 @@
+{
+  "time": 1684983065960,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "ChangeLanguage",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Change_Language",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.52,
+          "records": [
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(繁體中文)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//button[@id='lang-button']/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-colorDefault.css-138j2qm-MuiTypography-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYCMBXMMbAbQACaACYBeAOQAbCFgDmMLj2ziAuixp8CKiiAxhmgQT9AK1mBaOUDhpjowQ8oSLIByEALYJmNHVGkoUzJ5zQIsmAAnjQYskgQNAzBMEgYegAEfmghYRFRMXEJYMn+aeGR0bHsGMLBBHkBQaGFmbFQGJIYSMIIAGYQnJK5UN4wBADMABwAVgBMAI5OMCkFGcXZejrNUPSYWADyrcjMZAC+lBhQdDbgEA7OrviKvDiUnhDevv632Eu5KW9YMGAIVJ9Xtw7r9-mAaEg0E4IEhglVvjB0AAvBAuYRoThOeHA95-AHI1EIdGY7FKLDsJ4ID6JRJ9FAwJFQJAAFgQAAZZkCyRSUFT4npOWgEfz9JRIOw0Fg2lRmGydGlriBvjoYWgIDBpOwEJJfC1XJQRMxpHIFDj7iBVeqGE8wjROO58GAkJx9SBVutsNs2kg9iBDroTj7cLYLo4XMwUHBZB4vD58ClI7I0I0fiKqonk+92tgwAS0RisXSYGhmew4MMAOyCjMpj46bNQTgoCDsSSKzqSXkqyFWkRtHCO52uuABADupRl+DZiWn42ZiTnOmE9HVfxQYEN+GNsk4FwQmfN7o3np2QcIfqOUAHIcu4fwiZ0o5EjD2gx0DH3sgY+nwFZ0I4QccMEnEBp2nIZEj-Sh2jQSQdXwLBsFdddgjbZgnRkFBsyQJxcESSVUjVSQAG4VmOD0tlPZhxgvAMoDwPgVEvH8QEAOtVAFl5QBxmMAKCjEkAWBVAEYvXA114JBZBkNAkQo8xBgGP0gA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "56,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 87
+              },
+              "comment": false
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "500"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(English)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='lang-menu']/div[3]/ul[1]/div[1]/span[1]/li[2]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.css-xfb8fs-MuiButtonBase-root-MuiMenuItem-root:nth-child(2) > p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-colorDefault.css-l7puik-MuiTypography-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAbCFgDmMALYIsAV2EBdDl24BmVQtHcCqzj30sUdLHtWi03AEyqaFiiAxhm8yVZRNKGCHlCQkgByEHLMNE5Q4igozDIKaAiSYACeNBiSSBA0DCkwSBguAATxaKnpmdm5+YVgJQnlGVk5eQBGGOwpBPWJyWlNVXlQGKIYSOwIAGYQOnVQMTCiAOw0CQDWsg39lS01Lk6jUPSYWADy48jMZAC+PlB0-uAQwaEIzFaR0bH4pXKKZQgZHs6r95A1ATBJAowGBkCgeq1oWBsK0ICgEMCivMUDAqJNWgAOSY40qImEotEYgouTZoP7goHU1yUSCtNBYCZUZgwMiUAqiN4-MEAmQHDBHMAnc4TJDMGwgW7Oe6y3CKUSiO44XABZ4hML4UwST5o74gUrIhRQBhINA0GgCzHYmAEgBWCAJAC8GLSLVabXaHUyxRKpRcVYQFXcoHhuMo7q58IBBP0AK1mAWjlAOGmCqAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "41,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 57,
+                "prw": 0,
+                "pdw": 675
+              },
+              "comment": false
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(English)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//button[@id='lang-button']/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-colorDefault.css-138j2qm-MuiTypography-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYCMBXMMbAbQACaACYBeAOQAbCFgDmMLj2ziAuixp8CKiiAxhmCOZLQomlDBDyhIsgHIQAtgmY0dUaShTMHnNAllgAJ40GLJIEDQMgTBIGHoABD5oQSFhEVExcWCJvimh4ZHR7BjCgQQ5fgHB+enRUBiSGEjCCABmEJyS2VCeMAQAzAAcAFYATACODjBJeWmFmXo6jVD0mFgA8s3IzGQAvuZQdFbgEHaOzviKvDiU7hCe3r5X2AvZSc9YMGAIVG9P3Ncvj8wDQkGgHBAkIEKh8YOgAF4IJzCNCcBwwgEvb6-BFIhAotEYpRYdj3BCveLxHooGDwqBIAAsCAADNN-sTSShybE9Gy0LCefpKJB2GgsC0qMxmToUhcQB8dJC0BAYNJ2AhJN4ms5KCJmNI5ApMTcQEqVQx7iEaJxXPgwEhODqQMtVthNi0kDsQPtdIdPbhrKd7E5mCg4LI3B4vPgkmHZGh6p9BRU4wmXq1sGBccjUejqTA0Az2HBBgB2PmpxOvHQZqCcFAQdiSOXtSRcxVg80iFo4O0Op1wPwAd2KkvwzPiE9GDPi050wnoKu+KDAevwBtknFOCDTJpdq7dW39hG9B17gbOIfwcZ0Q5EjB2-R0DB3sgY+nwpZ0g4QI4wY5ACcJwGeIv0oVo0EkTV8CwbAnRXQJm2Ye0ZBQDMkAcXB4jFZJlUkABuJYMBWA8NiPZhRlPX0oDwPgVAOD8QEAOtVAFl5QBxmMAKCj4kAWBVAEYvXBl14JBZBkNB4VdLBAEegwBw00o3YgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "38,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 19
+              },
+              "comment": false
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "500"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(繁體中文)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='lang-menu']/div[3]/ul[1]/div[1]/span[1]/li[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p.MuiEgTypography-root.MuiTypography-root.MuiTypography-body1.MuiEgTypography-colorDefault.css-l7puik-MuiTypography-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAbCFgDmMALYIsAV2EBdDl24BmVQtHcCqzj30sUdLHtWi0FljQsUQGMM0CCfoBWswLRygcNMHGCHlBISQA5CDlmGgcocRQUZhkFNARJMABPGgxJJAgaBlSYJAwnAAIEtDSMrJy8gqKwUsSKzOzc-IAjDHZUggaklPTm6vyoDFEMJHYEADMIHXqoWJhRAHYaRIBrWUaBqtbapwcxqHpMLAB5CeRmMgBfSgwoOgDwCBCwhGYrKJi4-DK5RTlBAyfb1f7yRrAmCSBRgMDIFC9NqwsDYNoQFAIUHFBYoGBUKZtAAcUzxZWRcLRGKxhScWzQAMhINpzkokDaaCwkyozBgZEohVEHz+EKBMkODxO2AukyQ1xAd0cjzluEUolE9ygOFwgVeoXC+FMEm+GN+IDKqIUUAYSDQNBoQuxuJgRIAVggiQAvBj0y3W232x0siXHMCnGVXfC3TVQPDcZSa5z4cRSBSvBDFeSSKwoJg3IA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "41,8"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

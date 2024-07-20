@@ -1,0 +1,3 @@
+export const MOBILE_DRAWER_CLOSED_WIDTH = 0;
+export const PC_DRAWER_OPENED_WIDTH = 250;
+export const PC_DRAWER_CLOSED_WIDTH = 84;

@@ -1,0 +1,137 @@
+{
+  "time": 1685008716413,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "DuplicateSavedFilter",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Duplicate_Saved_Filter",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.14,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(自訂篩選)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/button[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[16]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorCustome.MuiEgButton-colorCustome-331.MuiEgButton-contained.ForwardRef-root-116.ForwardRef-root-325.css-1bclkqt-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQB9UVgRUwwgLocu3AvM49lCngCYVi9QFsIaLEp1rT3bRpNX1qi+YAs8gEYBXMGGzcAzLIogMMGZAK8DAICjAS+9ADwT-DAg8UEgAcwA5CD0EZjcPbH8oABsIFBRmPVc0LM8sGCQMQIACUvL3SpgobEgjBHYGsorsVvbDSXYaJDQDJABPHqbsqvQALwR0zlc9Gb6qtqwO4cXlrrQ1jebsZ0KEatqwGYREzav6xruHmtcsdi7b+9OtjDyMEgoK4UJ50t8Hm0AUCQWDLt5vAQIb8Bjshl8AGaAgDuECQ7CQCAxjzAMAIBAAbHUsUhcfjCcSaoEYN5NABWOpQIpk5z5ADWAEdSY1NucUJcmcLeijJf5IM4jJ8qMwAAxyyY0DL4TZyqRgKGA5gAYgpDlNpv8oMmeS1IBoGHQYEwWFwdUJBSdiAA3P4AVB6M6APL45DMbwgAC+lAwUDo8XAEBSaVtqlyBSKJTKd3Y9FzzhtDAQEE+SBgGLQeTAyDgaAQ2NTlCtNuY9sdztd7oD3t9MYD2GDJeYDkj0djSHjSVS6UyvzThWK+BFMuuJzmqN2XyXa+2G5GYwm0y3LX2KyO6yP-R36PYJ8OxwvWDFEpXzx+a8lyPfGHen26r8h-yAsCoIYOC-4ogaMIgekZLeA4n4tFenTdDSdIEkSJJkpS1I4ni6GMtcZKaAAHJy3IELyeSClKsyVE+mEPiScoQAqHxSKq6qajOcy6tIkHGuaZrDo2YDWrarZoE62AdggHpcAgPqUH6fZYAOob4JoI4BFAOC4AkiZTraOqUPk86ZrR-QfoxSHDKuiGDMhozjHih7Smut6rOebn2WiyEeWedlnBcJIzDAnAoCxNp-lmb4tFZMWvN+bHRbWsWXoBUFwgh6XQsBcJkg43jZX8vm2aheEMphBDeFS5X0hhkqwQA7GRKAwAUmjYlgmgwA+9GNYxsqUPKirsfgZKcUZs7DXq-H4CaQkWpQ4WRV0zA9v6UmqSG474MOUbaVAeDcPpSbTvgKB0DgJnpguIAGHyCBNk98AQHkrhPVdRFNRtKlqbthAjqdhnMJdEDXSApkZouZSeK4UAMGMNA0DaIVcm1xEAFYIMRCwML1sPfgjSMo8+gS-Vt-3MJpEayKOQT4GEUR1IATIqABraUSALkWgBvcpGQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 449,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiEgIconButton-colorInherit.css-1uwdpcj-MuiButtonBase-root-MuiIconButton-root > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.css-ptiqhd-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 125
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[2]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

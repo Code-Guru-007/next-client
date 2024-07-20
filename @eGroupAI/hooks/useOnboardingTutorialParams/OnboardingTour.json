@@ -1,0 +1,216 @@
+{
+  "CRM_USER": [
+    {
+      "name": "tab_info",
+      "steps": [
+        {
+          "title": "Information tab",
+          "target": ".tour_target-CRM_USER-tab_info",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "此處可對客戶的姓名、電話號碼等資訊進行搜尋和新增客戶資料。您還可以直接匯入客戶名單，支援的類型為 Excel 檔（.xlsx）"
+        },
+        {
+          "title": "Data Table Filter",
+          "target": ".tour_target-data_table-header-filterGroups",
+          "placement": "left",
+          "content": "此處可以對特定的標籤、資料、欄位進行篩選，並可儲存所有的篩選條件組合"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處呈現所有的客戶個人資料。若資料筆數超過10筆，將以分頁方式展示"
+        },
+        {
+          "title": "Data Table Footer",
+          "target": ".tour_target-data_table-footer-pagination",
+          "placement": "left",
+          "content": "此處可調整表格中資料的間距大小、設定每個分頁要展示的資料筆數，以及進行分頁切換"
+        }
+      ]
+    },
+    {
+      "name": "tab_share",
+      "steps": [
+        {
+          "title": "Share Tab",
+          "target": ".tour_target-CRM_USER-tab_share",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以查看其他組織分享給您的客戶資料"
+        },
+        {
+          "title": "Data Table Search",
+          "target": ".tour_target-data_table-tools-searchbar",
+          "placement": "left",
+          "content": "此處讓您可以進行客戶的姓名或電話號碼的搜尋"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有由其他組織分享給您的客戶個人資料。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    },
+    {
+      "name": "tab_tagGroup",
+      "steps": [
+        {
+          "title": "Tag Group Tab",
+          "target": ".tour_target-CRM_USER-tab_tagGroup",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以進行「個人列表」中所有標籤的管理與操作。此標籤允許您為客戶和動態欄位群組加上標籤"
+        },
+        {
+          "title": "Data Table Tools",
+          "target": ".tour_target-data_table-rightTools",
+          "placement": "right",
+          "content": "此處允許您搜尋標籤名稱、新增標籤群組，以及切換繁體中文或英文的標籤群組"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有的標籤群組和其中的標籤。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    },
+    {
+      "name": "tab_dynamicColumn",
+      "steps": [
+        {
+          "title": "Dynamic Column Tab",
+          "target": ".tour_target-CRM_USER-tab_dynamicColumn",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以進行「個人列表」中所有自定義欄位的管理與操作。透過自訂義欄位，您可以在新增客戶時填入更多所需的資訊"
+        },
+        {
+          "title": "Data Table Tools",
+          "target": ".tour_target-data_table-toolsBar",
+          "placement": "right",
+          "content": "此處允許您進行自定義欄位的排序、搜尋，以及新增自定義欄位"
+        },
+        {
+          "title": "Data Table Filter",
+          "target": ".tour_target-data_table-header-filterGroups",
+          "placement": "left",
+          "content": "此處允許您對自定義欄位進行篩選"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有的自定義欄位和其相關資訊。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    },
+    {
+      "name": "tab_dynamicColumnGroup",
+      "steps": [
+        {
+          "title": "Dynamic Column Group Tab",
+          "target": ".tour_target-CRM_USER-tab_dynamicColumnGroup",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以進行「個人列表」中所有自定義欄位群組的管理與操作。透過此群組，您可以對所有自定義欄位進行分類和分組，並且給予它們相應的標籤"
+        },
+        {
+          "title": "Data Table Tools",
+          "target": ".tour_target-data_table-rightTools",
+          "placement": "right",
+          "content": "此處允許您搜尋自定義欄位群組名稱、以及新增欄位群組"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有的自定義欄位群組。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    },
+    {
+      "name": "tab_dynamicColumnTemplate",
+      "steps": [
+        {
+          "title": "Dynamic Column Template Tab",
+          "target": ".tour_target-CRM_USER-tab_dynamicColumnTemplate",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以進行「個人列表」中所有自定義欄位範本的管理與操作。透過此功能，您可以快速在「分享編輯」中選擇單一客戶需要填寫的欄位"
+        },
+        {
+          "title": "Data Table Tools",
+          "target": ".tour_target-data_table-rightTools",
+          "placement": "right",
+          "content": "此處允許您搜尋自定義欄位範本名稱、以及新增欄位範本"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有的自定義欄位範本。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    },
+    {
+      "name": "tab_financeTemplate",
+      "steps": [
+        {
+          "title": "Finance Template Tab",
+          "target": ".tour_target-CRM_USER-tab_financeTemplate",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以進行「個人列表」中所有財務範本的管理與操作。透過此功能，您可以快速在「分享編輯」中選擇單一客戶需要填寫的財務紀錄"
+        },
+        {
+          "title": "Data Table Tools",
+          "target": ".tour_target-data_table-rightTools",
+          "placement": "right",
+          "content": "此處允許您搜尋財務範本名稱、以及新增財務範本"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有的財務範本。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    },
+    {
+      "name": "tab_financeTagManagement",
+      "steps": [
+        {
+          "title": "Finance Template Tab",
+          "target": ".tour_target-CRM_USER-tab_financeTemplate",
+          "placement": "bottom",
+          "disableBeacon": true,
+          "locale": "skip: <strong aria-label='skip'>S-K-I-P</strong>",
+          "content": "在此頁籤中，您可以進行「個人列表」中所有的財務相關標籤的管理與操作"
+        },
+        {
+          "title": "Data Table Tools",
+          "target": ".tour_target-data_table-rightTools",
+          "placement": "right",
+          "content": "此處允許您搜尋財務標籤名稱、以及新增財務標籤群組"
+        },
+        {
+          "title": "Data Table Content",
+          "target": ".tour_target-data_table-content",
+          "placement": "top",
+          "content": "此處展示所有的財務標籤群組及其標籤。若資料筆數超過10筆，則將以分頁方式展示"
+        }
+      ]
+    }
+  ]
+}

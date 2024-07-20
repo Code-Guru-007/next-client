@@ -1,0 +1,1790 @@
+{
+  "time": 1685490600468,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "Create&Edit&PreviewRadio",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Create_Preview_Radio",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.38,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[13]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiEgIconButton-colorText.ForwardRef-root-60.ForwardRef-root-860.css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 352,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "mouseOut",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[13]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiEgIconButton-colorText.ForwardRef-root-60.ForwardRef-root-860.css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-124"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-124']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-124"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-124"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-124']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-124"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Test Radio"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[4]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=body"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='menu-organizationColumnList.0.columnType']/div[3]/ul[1]/li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[4]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 199,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[6]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=body"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='menu-organizationColumnList.0.organizationColumnGroup.columnGroupId']/div[3]/ul[1]/li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[1]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 91
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.isRequired"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[7]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.isRequired']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.isRequired\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.hasValueRemark"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.hasValueRemark']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.hasValueRemark\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.isRequiredValueRemark"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[9]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[9]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.isRequiredValueRemark']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.isRequiredValueRemark\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.isRequired"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[7]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.isRequired']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.isRequired\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.hasValueRemark"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.hasValueRemark']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.hasValueRemark\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[11]/ul[1]/li[1]/div[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[1]/li[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiFormControl-root.MuiEgTextField-root.MuiEgTextField-root-1261.MuiTextField-root.Mui-error.MuiEgTextField-smallSize.css-1rmdoff-MuiFormControl-root-MuiTextField-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-127"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[11]/ul[1]/li[1]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[1]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-127']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-127"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "test radio1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 761
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiEgIconButton-colorText.ForwardRef-root-60.ForwardRef-root-1263.css-78trlr-MuiButtonBase-root-MuiIconButton-root > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-lw08pq-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 111
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-130"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[11]/ul[1]/li[2]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-130']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-130"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-130"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[11]/ul[1]/li[2]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-130']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-130"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "test radio2"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[30]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1224.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 87,
+                "prw": 0,
+                "pdw": 1
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/span[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-19y2nkx-MuiTypography-root:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/label[1]/span[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.MuiGrid-root.MuiGrid-item.css-13i4rnv-MuiGrid-root:nth-child(2) > div.MuiGrid-root.MuiGrid-container.css-11lq3yg-MuiGrid-root > div.MuiGrid-root.MuiGrid-item.css-1s76rlx-MuiGrid-root > label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-19y2nkx-MuiTypography-root:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[27]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1224.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 218,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[27]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1397.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "Edit_Radio",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 2.02,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[11]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-disableElevation.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-89.MuiEgButton-contained.ForwardRef-root-86.ForwardRef-root-87.MuiEgDataTableHeader-filterDropDown.css-byh8sq-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 623
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='filterOptionsScroll']/div[1]/div[2]/label[2]/span[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[2]/span[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.EgCheckboxWithLabel-root-340.makeStyles-checkbox-83.css-j204z7-MuiFormControlLabel-root:nth-child(2) > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-19y2nkx-MuiTypography-root:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1143.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 72,
+                "prw": 0,
+                "pdw": 941
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//td[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.makeStyles-vAlign-226.makeStyles-vAlign-230.css-9j0u9t-MuiTableCell-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 238,
+                "prw": 0,
+                "pdw": 767
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-16"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-16']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-16"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-16"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-16']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-16"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Edit radio"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[6]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=body"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='menu-organizationColumnList.0.organizationColumnGroup.columnGroupId']/div[3]/ul[1]/li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[2]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 115
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.isRequired"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[7]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.isRequired']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.isRequired\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.hasValueRemark"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.hasValueRemark']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.hasValueRemark\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.isRequiredValueRemark"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[9]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[9]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.isRequiredValueRemark']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.isRequiredValueRemark\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.isRequired"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[7]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.isRequired']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.isRequired\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=organizationColumnList.0.hasValueRemark"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/div[1]/div[2]/span[1]/span[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='organizationColumnList.0.hasValueRemark']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"organizationColumnList.0.hasValueRemark\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-19"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[11]/ul[1]/li[1]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[1]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-19']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-19"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=mui-19"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//form[@id='DynamicColumnsForm']/div[1]/div[11]/ul[1]/li[1]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[1]/div[2]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='mui-19']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#mui-19"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "edit option1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[30]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-1283.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[3]/span[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:data",
+                    "value": "css=[data-testid=\"CloseRoundedIcon\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1py5yhb-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "Main",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Create&Edit&PreviewRadio.Create_Preview_Radio"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Create&Edit&PreviewRadio.Edit_Radio"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

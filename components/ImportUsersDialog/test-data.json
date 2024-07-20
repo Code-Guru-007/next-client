@@ -1,0 +1,196 @@
+[
+  {
+    "organizationUserId": "LDhE6A3KSKSFMn2fuWvjFg",
+    "organizationUserNameZh": "王X真",
+    "organizationUserPhone": "097XXXXX688",
+    "organizationUserZIPCode": "709",
+    "organizationUserCity": "臺南市",
+    "organizationUserArea": "安南區",
+    "organizationUserAddress": "公學XXXXXXXXX號",
+    "organizationUserGender": 2,
+    "dynamicColumnTargetList": [
+      {
+        "organizationColumn": {
+          "columnId": "6150336a17da4e24bd8051390a1031e2",
+          "columnName": "年齡",
+          "columnType": "NUMBER"
+        },
+        "targetId": "LDhE6A3KSKSFMn2fuWvjFg",
+        "columnTargetValue": "25"
+      },
+      {
+        "organizationColumn": {
+          "columnId": "0qT532hhgQspsw29tSuvfQ",
+          "columnName": "FDFDSFDSFDSF1111111",
+          "columnType": "TEXT"
+        },
+        "targetId": "LDhE6A3KSKSFMn2fuWvjFg",
+        "columnTargetValue": "test"
+      },
+      {
+        "organizationColumn": {
+          "columnId": "99XBALTwQN2JDnBpuxz7Xw",
+          "columnName": "dcsssadsadsa",
+          "columnType": "TEXT"
+        },
+        "targetId": "LDhE6A3KSKSFMn2fuWvjFg",
+        "columnTargetValue": "test"
+      },
+      {
+        "organizationColumn": {
+          "columnId": "2fd859b7c723407ba59b654b0a9612f7",
+          "columnName": "居住地",
+          "columnType": "CHOICE_ONE_DROPDOWN"
+        },
+        "targetId": "LDhE6A3KSKSFMn2fuWvjFg",
+        "columnTargetValue": "臺南市"
+      }
+    ],
+    "similarOrganizationUserList": [
+      {
+        "organizationUserId": "0evM4FwIR9i7tzfEzL7h7Q",
+        "organizationUserNameZh": "王X真",
+        "organizationUserPhone": "097XXXXX688",
+        "organizationUserZIPCode": "709",
+        "organizationUserCity": "臺南市",
+        "organizationUserArea": "安南區",
+        "organizationUserAddress": "公學XXXXXXXXX號",
+        "organizationUserGender": 2,
+        "organizationUserCreateDate": "2024-01-04T07:51:18.000Z",
+        "organizationUserUpdateDate": "2024-01-16T01:34:09.000Z",
+        "dynamicColumnTargetList": [
+          {
+            "columnTargetId": "0LSulLtdRQRubAMObWzbtA",
+            "organizationColumn": {
+              "columnId": "1ce7ae9f0a9042969e6e992ee07b2683",
+              "columnName": "*子女數",
+              "columnType": "NUMBER",
+              "columnSort": 277
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "2",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "0D5OztcyETtCvqpE1CTZGQ",
+            "organizationColumn": {
+              "columnId": "2fd859b7c723407ba59b654b0a9612f7",
+              "columnName": "居住地",
+              "columnType": "CHOICE_ONE_DROPDOWN",
+              "columnSort": 4
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "臺南市",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "jQx6rwxmS2SA7OxOVACz1Q",
+            "organizationColumn": {
+              "columnId": "462f3bf9d793423d832c5c1dc956f9e9",
+              "columnName": "說明為何需要信扶專案的創業輔導協助",
+              "columnType": "TEXT",
+              "columnSort": 343
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "1打2真的會打不過",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "w6Rcdgd4TaCpfsXJF1QAcQ",
+            "organizationColumn": {
+              "columnId": "5d66de0ef4384e4baf1dfe5814cdabd2",
+              "columnName": "信扶報名管道(行政填寫)",
+              "columnType": "CHOICE_ONE_DROPDOWN",
+              "columnSort": 250
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "基金會網路報名",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "02ZkfUgISzCXgymFDYuFvw",
+            "organizationColumn": {
+              "columnId": "6150336a17da4e24bd8051390a1031e2",
+              "columnName": "年齡",
+              "columnType": "NUMBER",
+              "columnSort": 1
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "25",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "1dnLkg61SBe0tklsu59K2g",
+            "organizationColumn": {
+              "columnId": "6f4df0c7e4484857ac4a40ab62ece06e",
+              "columnName": "信扶報名時間",
+              "columnType": "DATETIME",
+              "columnSort": 249
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "2023-08-16T21:11:49.000Z",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "0cl1cTguTGSCLvCa0mbUuQ",
+            "organizationColumn": {
+              "columnId": "b1abab5416b744d4ae25263d7efa02f3",
+              "columnName": "得知信扶專案的訊息來源",
+              "columnType": "CHOICE_MULTI",
+              "columnSort": 251
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "親友介紹",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "KzIBO0BFTgWsCLGv08KRXg",
+            "organizationColumn": {
+              "columnId": "d16b3a4e70bd4464a08b902b9fe57d88",
+              "columnName": "*目前創業狀態(必填)",
+              "columnType": "CHOICE_ONE",
+              "columnSort": 295
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "未創業",
+            "columnTargetValueRemarkList": []
+          },
+          {
+            "columnTargetId": "Mo9tfhijQoaVZezJOqts2A",
+            "organizationColumn": {
+              "columnId": "e1f1d51f121a455bb771f7af89d3cea2",
+              "columnName": "*福利身分",
+              "columnType": "CHOICE_ONE",
+              "columnSort": 283
+            },
+            "targetId": "0evM4FwIR9i7tzfEzL7h7Q",
+            "columnTargetValue": "無",
+            "columnTargetValueRemarkList": []
+          }
+        ],
+        "number": 0,
+        "total": 0
+      },
+      {
+        "organizationUserId": "65f4a4776927440fa74a63bef818a6ec",
+        "organizationUserNameZh": "王X真",
+        "organizationUserPhone": "090XXXXXXXXXX368",
+        "organizationUserEmail": "sunnXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.com",
+        "organizationUserZIPCode": "404",
+        "organizationUserCity": "臺中市",
+        "organizationUserArea": "北區",
+        "organizationUserAddress": "建成XXXXXXXXXXXXXXXXXX3",
+        "organizationUserIdCardNumber": "B22XXXXXXXXX483",
+        "organizationUserGender": 2,
+        "organizationUserCreateDate": "2022-04-27T15:43:54.000Z",
+        "organizationUserUpdateDate": "2022-04-29T07:36:52.000Z",
+        "organizationUserBirth": "1989-04-14",
+        "number": 0,
+        "total": 0
+      }
+    ],
+    "importStatus": "DB_DUPLICATE",
+    "number": 1,
+    "total": 1
+  }
+]

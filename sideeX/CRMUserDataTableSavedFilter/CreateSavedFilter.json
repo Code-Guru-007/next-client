@@ -1,0 +1,192 @@
+{
+  "time": 1685008645069,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "CreateSavedFilter",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Create_Saved_Filter",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.45,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[11]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-disableElevation.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-89.MuiEgButton-contained.ForwardRef-root-86.ForwardRef-root-87.MuiEgDataTableHeader-filterDropDown.css-byh8sq-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 453
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='filterOptionsScroll']/div[1]/div[2]/label[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/label[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.EgCheckboxWithLabel-root-284.makeStyles-checkbox-83.css-j204z7-MuiFormControlLabel-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 1000
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorPrimary.MuiEgButton-colorPrimary-321.MuiEgButton-contained.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 45,
+                "prw": 0,
+                "pdw": 544
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(儲存篩選條件)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/button[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[5]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[17]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorCustome.MuiEgButton-colorCustome-153.MuiEgButton-contained.ForwardRef-root-146.ForwardRef-root-147.css-la2wn2-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQB9UVgRUwwgLocu3AvM49lCngCYVi9QFsIaLEp1rT3bRpNX1qi+YCs8gEYBXMGGzcAzLIogMMGZAJkVADW1AS+9ADwTAXItAN7l-DAg8UEgAcwA5CD0EZjcPbH8oABsIFBRmPVc0PM8sGCQMQIACSur3WpgobEgjBHYWqprsTu7DSXYaJDQDJABPAbb8uvQALwRszlc9BaG6rqwe8dX1vrQtnfbsZ1KEesawBYRU3bvm1qeXhtcsdj7H58uewwRQwSCgrhQnmy-xeXRBYIhUNuBAc3hhgJGBzGfwAZqCAO4QJDsJAIHGvMAwAgAFgAbE08UhCcTSeSGoEqdSAOxNKBlGAlTT4rCaGCtXbXFC3dmU8UYmX+SDOIy-KjMAAMitmNBy+F2iqkYDhoOYAGJaXTLf4QVB6JgsAB5YnIZjeEAAX0oGCgdGS4AgGSyupAqkKJTKFSqT3Y9FjziKCAYCAgvyQMBxaCKYGQcDQCHxocokNmCeYNAw6DA9twTVJJSriAA3NbvXbsE7U8wHB6vT6kH60plsrlAWHSuV8HKlhSLtP9oc-lOOvPsRMpjN5kvhscNmdtlugVjeuwd6dzgfJdL7ujpzKbx0vj9F1GAXPgaDwZCMND3q-l++ES-bJOWpe9hhXY8GQJIkSTJCkqU0elGWZWC2XuKlvAADl5fkCGcYoAGsAEdZUGQFL3gg8KUVCBlSfNV8E1SgwG1YN9WYw1jX7fBzUtC1-GLUt8HLStq1rBB6y4BBm0oG020dZ1uJATQewCKAcFwLBXCKIpeygPBuBSAMh2DFA6BwShinHSNFg6SEiSrfZZw6NB9lPTZtj5FAqXYWl8RWAArCAxTI6d7KQRyClk1sq3bRTmDIT0jMDYd8DMiALJAOTYoUzt8BUpL-RS0zzLHCNJyqTxXCgBgphoGgExnLyYEwgKEEwlYGBCtAqpquqGqvQIW1tHKOxdfA3XdWReyCfBACvAwAgKKiJpAFo5QBw00AZc1AFgVQB7AMAQ19AG+0wBHKIOwAFbUAV4TYnOwA9BMAAWVAH0wwA59UAID1AHIDQBSJUAL71AGmvQAhM0AZNTABezQAG0wBwB8V0AU9Mat6KUsCDAh1QATk0FEuVpSagA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

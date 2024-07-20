@@ -1,0 +1,76 @@
+.fr-toolbar {
+  border: none;
+}
+
+/* width, height */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(99, 115, 129, 0.48);
+  border-radius: 50px;
+}
+
+.fr-box.fr-basic .fr-wrapper {
+  border: none;
+}
+
+.fr-box.fr-basic {
+  border: 1px solid #e5e8eb;
+}
+
+.dark-theme.fr-box.fr-basic {
+  border: 1px solid #3c4752;
+}
+
+.fr-second-toolbar {
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .fr-view table {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, 0s 600000s;
+}
+
+div.fr-element h1 {
+  font-size: 3.625em;
+}
+
+div.fr-element h2 {
+  font-size: 2.75em;
+}
+
+div.fr-element h3 {
+  font-size: 1.875em;
+}
+
+div.fr-element h4 {
+  font-size: 1.5em;
+}
+
+div.fr-element h5 {
+  font-size: 1.25em;
+}
+
+div.fr-element h6 {
+  font-size: 1.125em;
+}
+
+div.fr-popup.fr-desktop.light-theme.fr-ltr.fr-active {
+  z-index: 1301 !important;
+}

@@ -1,0 +1,10 @@
+# /node_modules/* and /bower_components/* in the project root are ignored by default
+
+**/.next/*
+.eslintrc.js
+jest.config.js
+jest.setup.js
+next.config.js
+lint-staged.config.js
+package.json
+*.md

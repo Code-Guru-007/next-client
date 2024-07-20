@@ -1,0 +1,176 @@
+{
+  "time": 1685008701468,
+  "version": {
+    "sideex": [3, 7, 3],
+    "format": [2, 0, 0]
+  },
+  "suites": [
+    {
+      "title": "DeleteSavedFilter",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Delete_Saved_Filter",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0.08,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(自訂篩選)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='__next']/div[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/button[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[16]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.MuiEgButton-root.MuiEgButton-rounded.MuiEgButton-colorCustome.MuiEgButton-colorCustome-260.MuiEgButton-contained.ForwardRef-root-116.ForwardRef-root-254.css-1bclkqt-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQB9UVgRUwwgLocu3AvM49lCngCYVi9QFsIaLEp1rT3bRpNX1qi+YAs8gEYBXMGGzcAzLIogMMGZAK8DAICjAS+9ADwT-DAg8UEgAcwA5CD0EZjcPbH8oABsIFBRmPVc0LM8sGCQMQIACUvL3SpgobEgjBHYGsorsVvbDSXYaJDQDJABPHqbsqvQALwR0zlc9Gb6qtqwO4cXlrrQ1jebsZ0KEatqwGYREzav6xruHmtcsdi7b+9OtjDyMEgoK4UJ50t8Hm0AUCQWDLpoAGwABghvwGOyGXwAZoCAO4QJDsJAILGPMAwAgEBF1HFIfGE4mkmqBGCaACsDjqUCKFOc+QA1gBHcmNTbnFCXZki3poqX+SDOIyfKjMJHyyY0DL4TbyqRgKGA5gAYixprN-lBkzyWpANAw6DAmCwuDqxIKjsQAG5-ACoPQnQB5QnIZjeEAAX0oGCgdHi4AgKTSNtUuQKRRKZTu7HoOec1oYCAgnyQMCxaDyYGQcDQCFxKcolutzDtDqdLrd-q9Puj-uwQeLzAcEajMaQcaSqXSmV+qcKxXwotl1xOc3Ruy+i9X23XIzGE2mm5a+xWR3Wh-628x7GPh2O56w4sly+eP1XUtRb4w70+3RfkP+gLAqCGDgn+aIGjCwHpBS3icmBW6DJ03S0vSRIkmSFJUjSeIEmhTLXBSmgABxcjyBB8nkQrSrMlSPhh95kvKECKh8UiquqmrTnMurSBBxoIg4AkCRaYBWjaLZoI62Dtgg7pcAg3qUL6vZYP2Ib4Jow4BFAOC4AkCaTjaOqUPkc4ZjR-Tvgxl5ISuLQ2cMozjASB4yquN6rGebn2YhexoEsJ53t5ZwXGSMwwJwKDMdav6Zq+LRWXFrxfqxsU1vFF4AZBcIfj50JAXCFION4uWZRitkobhjIYQQ3jUpVDLoVKMEAOykSgMAFJouJYJoMD3nRzUMXKlAKkqbH4BSHFGTOo16nx+BGkJglDpQkXRV0zDdn6UmqcGY74EOkbaVAeDcPpiZTvgKB0DgJlpvOIAGPyCCNq98AQHkrivbdhEtdtKlqQdhDDhdhnMDdEB3SApnpguwVVAgHxoNsdn9Cj2Aeae7UwAAnGAABWBBski-UIzASOcNsAO7UDzCaZGYNJhDt2znDT1lJ4rhQAwYw0DQ1phdyHVEQTCBEQsDBk5JX483zAtPoENOBvtoYRrII5BPgYRRHUgBMioAGtpRIAuRaAG9yEZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]/*[name()='svg'][1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiEgIconButton-colorInherit.css-1uwdpcj-MuiButtonBase-root-MuiIconButton-root > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.css-ptiqhd-MuiSvgIcon-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 57
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[5]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 198
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "xpath=(//button[@type='button'])[30]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button.MuiButton-root.MuiButton-text.MuiButton-textError.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.Button-root-274.Button-root-276.css-1wzlzos-MuiButtonBase-root-MuiButton-root"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
