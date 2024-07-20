@@ -2,16 +2,16 @@
 
 This is the official TypeScript template for eGroup team.
 
-To use this template, add `--use-npm --example "https://github.com/eGroupAI/frontend-templates/tree/main/egroup-starter"` when creating a new app.
+To use this template, add `--use-npm --example "https://github.com/[Org]/frontend-templates/tree/main/egroup-starter"` when creating a new app.
 
 For example:
 
 ```sh
-npx create-next-app my-app --example "https://github.com/eGroupAI/frontend-templates/tree/main/egroup-starter"
+npx create-next-app my-app --example "https://github.com/[Org]/frontend-templates/tree/main/egroup-starter"
 
 # or
 
-yarn create next-app my-app --example "https://github.com/eGroupAI/frontend-templates/tree/main/egroup-starter"
+yarn create next-app my-app --example "https://github.com/[Org]/frontend-templates/tree/main/egroup-starter"
 ```
 
 For more information, please refer to:
@@ -39,7 +39,7 @@ Step 2:
 login with github access token.
 
 ```sh
-npm login --scope=@eGroupAI --registry=https://npm.pkg.github.com
+npm login --scope=@[Org] --registry=https://npm.pkg.github.com
 ```
 
 Pasting the token we create in step 1 into password field.
